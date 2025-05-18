@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDS Dashboard</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 50%;
+}
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+<body>
+	<h1> Anomali Tespit Sistemi</h1>
+	<table> 
+		<thead>
+            <tr>
+                <th>IP Adresi</th>
+                <th>Durum</th>
+            </tr>
+        </thead>
+        <tbody id="log-table">
+        </tbody>
+
+	
+	
+	
+	</table>
+    <script src="/static/script.js"></script>
+</body>
+</html>
