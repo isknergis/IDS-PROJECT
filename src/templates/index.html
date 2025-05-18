@@ -5,8 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IDS Dashboard</title>
     <link rel="stylesheet" href="/static/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    <script defer src="/static/script.js"></script>
 </head>
 <body>
+<canvas id="logChart" width="400" height="200"></canvas>
     <h1>Anomali Tespit Sistemi</h1>
     <table>
         <thead>
@@ -18,8 +22,5 @@
         <tbody id="log-table">
         </tbody>
     </table>
-
-    <script src="/static/script.js"></script>
 </body>
 </html>
-
